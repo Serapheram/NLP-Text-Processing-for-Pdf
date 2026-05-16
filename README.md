@@ -52,20 +52,20 @@ python nlp_code.py
 
 **Q1(a) — PDF Reading**  
 Opens the PDF and extracts raw text from all 324 pages using PyPDF2
-![Q1a Output](Q1a.png)
+![Q1a Output](screenshots/Q1a.png)
 
 **Q1(b) — Text Preprocessing**  
 Converts to lowercase, removes numbers with `r'\d+'`, removes symbols with `r'[^a-z\s]'`, collapses spaces with `r'\s+'`, then tokenizes, removes stopwords, applies stemming and lemmatization
-![Q1b Output](Q1b.png)
+![Q1b Output](screenshots/Q1b.png)
 
 **Q1(c) — Feature Extraction**  
 Applies One Hot Encoding on a sample of 50 words and TF-IDF on the full text with top 20 features, both shown in table form
-![Q1c Output](Q1c%20Table.png)
-![Q1c Output](Q1c%20Summary.png)
+![Q1c Output](screenshots/Q1cTable.png)
+![Q1c Output](screenshots/Q1cSummary.png)
 
 **Q1(d) — Plotly Scatter Plot**  
 Interactive scatter plot of TF-IDF scores for the top 20 words, built entirely with Plotly
-![Q1d Output](Q1d.png)
+![Q1d Output](screenshots/Q1d.png)
 
 ---
 
