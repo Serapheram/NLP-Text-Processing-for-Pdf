@@ -60,8 +60,8 @@ Converts to lowercase, removes numbers with `r'\d+'`, removes symbols with `r'[^
 
 **Q1(c) — Feature Extraction**  
 Applies One Hot Encoding on a sample of 50 words and TF-IDF on the full text with top 20 features, both shown in table form
-![Q1c Output](screenshots/Q1cTable.png)
-![Q1c Output](screenshots/Q1cSummary.png)
+![Q1c Output](screenshots/Q1c%20Table.png)
+![Q1c Output](screenshots/Q1c%20Summary.png)
 
 **Q1(d) — Plotly Scatter Plot**  
 Interactive scatter plot of TF-IDF scores for the top 20 words, built entirely with Plotly
