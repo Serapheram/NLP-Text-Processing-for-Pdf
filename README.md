@@ -5,7 +5,7 @@ A complete NLP pipeline that reads a real PDF book, cleans the text, extracts fe
 ---
 
 ## PDF Used
-
+The one I used is this but you can add your own pdf to the folder.
 **The Red and the Black** by Stendhal — 324 pages  
 Source: https://www.gutenberg.org
 
@@ -32,12 +32,19 @@ Source: https://www.gutenberg.org
 
 ---
 
+## How to Run
+
+Install the required libraries:
+
+```
 pip install PyPDF2 nltk scikit-learn plotly pandas
+```
 
 Then just run:
-python nlp_code.py
 
-A browser window will open automatically with the full report.
+```
+python nlp_code.py
+```
 
 ---
 
@@ -73,10 +80,15 @@ Interactive scatter plot of TF-IDF scores for the top 20 words, built entirely w
 ## Troubleshooting
 
 If you get a ModuleNotFoundError run this instead:
+
+```
 python -m pip install PyPDF2 nltk scikit-learn plotly pandas
+```
 
 If NLTK data is missing:
+
+```
 python -c "import nltk; nltk.download('all')"
-## How to Run
+```
 
 Install the required libraries:
